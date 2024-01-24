@@ -1,0 +1,36 @@
+.about-container{
+    width: auto;
+    height: 86vh;
+    display: flex;
+    overflow-y: auto;
+}
+.about-photo-container{
+    width: 30vw;
+    padding: 2vw;
+    padding-left: 3vw;
+    padding-top: 4vw;
+}
+.about-content-container{
+    width: 40vw;
+    padding: 2vw;
+    padding-top: 4vw;
+    padding-left: 0.5vw;
+
+}
+
+.about-content-heading{
+    display: flex;
+    width: 27vw;
+    font-size: 4vw;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.about-content-heading .there{
+    color:  #ffc000;
+    font-weight: 600;
+}
+
+.about-content-body{
+    font-weight: 200;
+}

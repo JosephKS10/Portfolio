@@ -10,6 +10,7 @@ import { CgProfile } from "react-icons/cg";
 // Component to be used
 import HomepageContent from '../Components/HomepageContent';
 import AboutpageContent from '../Components/AboutpageContent';
+import SkillspageContent from '../Components/SkillspageContent';
 
 
 
@@ -40,7 +41,7 @@ function Homepage() {
               <li onClick={() => setActiveContent('about')}>
                 <IoPersonOutline className="icons" /> About
               </li>
-                <li>
+                <li onClick={() => setActiveContent('skills')}>
                   <LuBrainCircuit className="icons" /> Skills
                 </li>
                 <li>
@@ -70,6 +71,7 @@ function Homepage() {
             </div>
             {activeContent === 'home' ? <HomepageContent /> : null}
           {activeContent === 'about' ? <AboutpageContent /> : null}
+          {activeContent === 'skills' ? <SkillspageContent /> : null}
           </div>
         </div>
       </React.Fragment>
