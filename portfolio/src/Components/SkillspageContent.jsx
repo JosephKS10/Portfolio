@@ -34,7 +34,7 @@ function SkillspageContent() {
             <div className="skill-container">
                 <p className='skill-heading'>Technologies/Frameworks</p>
                 <div className="container">
-                    <div className="skills first-skill"><RiReactjsFill/> <p className='skill-title'>React.js</p></div>
+                    <div className="skills first-skill" proficiency="75"><RiReactjsFill/> <p className='skill-title'>React.js</p></div>
                     <div className="skills first-skill"><TbBrandReactNative/> <p className='skill-title'>React Native</p></div>
                     <div className="skills first-skill"><FaNodeJs/> <p  className='skill-title'>Node.js</p></div>
                     <div className="skills first-skill"><SiExpress/> <p  className='skill-title'>Express.js</p></div>
